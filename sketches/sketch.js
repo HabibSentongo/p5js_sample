@@ -30,5 +30,5 @@ function draw() {
   x += speedX;
   y += speedY;
 
-  ellipse(random(50, width - 50), random(50, width - 50), 20, 20, 10);
+  ellipse(random(50, width - 50), random(50, height - 50), 20, 20, 10);
 }
